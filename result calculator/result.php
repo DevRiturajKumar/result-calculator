@@ -459,7 +459,7 @@ function cgpa($sem1, $sem2, $sem3, $sem4, $sem5, $sem6, $hidden)
 <input type="text" id="Editbox11" name="sem2" value="" maxlength="3" tabindex="2" autocomplete="off" spellcheck="false" placeholder="2ND SEM">
 <div class="invalid-feedback">ENTER VALID VALUE</div></div>
 <div id="wb_Text5">
-<span style="color:#000000;font-family:Arial;font-size:20px;"><strong><u>ENTER YOUR MARKS BELOW:</u></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:20px;"> <strong> <u>ENTER YOUR MARKS BELOW:</u></strong></span></div>
 <div id="wb_Editbox8">
 <input type="text" id="Editbox8" name="sem6" value="" maxlength="3" tabindex="6" autocomplete="off" spellcheck="false" placeholder="6TH SEM">
 <div class="invalid-feedback">ENTER VALID VALUE</div></div>
