@@ -1,0 +1,1686 @@
+div#container
+{
+   width: 1366px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #00FEFE;
+   background-image: url(images/result_bkgrnd.png);
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: url(images/index_Text1_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 10px solid #000000;
+   border-radius: 10px;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Form1
+{
+   background-color: transparent;
+   background-image: url(images/index_Form1_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px solid #CCCCCC;
+}
+#Button1
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #008000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button2
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 27px;
+   line-height: 30px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Editbox1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox1:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox1::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox1::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox1.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox1.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox1.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox1.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox1 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox1.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox2
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox2:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox2::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox2::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox2.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox2.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox2.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox2.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox2 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox2.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox3
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox3:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox3::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox3::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox3.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox3.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox3.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox3.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox3 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox3.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox4
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox4:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox4::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox4::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox4.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox4.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox4.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox4.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox4 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox4.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox5
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox5:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox5::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox5::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox5.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox5.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox5.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox5.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox5 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox5.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox6
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox6:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox6::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox6::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox6.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox6.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox6.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox6.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox6 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox6.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: url(images/index_Text3_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 10px solid #000000;
+   border-radius: 10px;
+   padding: 5px 5px 5px 5px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Form2
+{
+   background-color: transparent;
+   background-image: url(images/index_Form2_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px solid #CCCCCC;
+}
+#Button3
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #008000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button4
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 18px;
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Editbox9
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox9:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox9::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox9::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox9.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox9.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox9.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox9.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox9 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox9.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox11
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox11:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox11::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox11::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox11.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox11.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox11.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox11.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox11 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox11.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox12
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox12:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox12::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox12::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox12.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox12.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox12.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox12.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox12 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox12.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox7
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox7:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox7::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox7::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox7.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox7.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox7.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox7.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox7 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox7.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox10
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox10:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox10::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox10::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox10.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox10.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox10.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox10.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox10 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox10.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#Editbox8
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 20px;
+   box-sizing: border-box;
+   line-height: 30px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+}
+#Editbox8:focus
+{
+   border-color: #1E90FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(30,144,255,0.60);
+   outline: 0;
+}
+#Editbox8::placeholder
+{
+   color: #1E90FF;
+   opacity: 1;
+}
+#Editbox8::-ms-input-placeholder
+{
+   color: #1E90FF;
+}
+#Editbox8.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox8.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox8.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox8.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox8 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox8.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5 div
+{
+   text-align: center;
+}
+#wb_Editbox5
+{
+   position: absolute;
+   left: 556px;
+   top: 74px;
+   width: 420px;
+   height: 40px;
+   z-index: 8;
+}
+#Editbox1
+{
+}
+#Editbox2
+{
+}
+#wb_Editbox6
+{
+   position: absolute;
+   left: 556px;
+   top: 138px;
+   width: 420px;
+   height: 40px;
+   z-index: 4;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 138px;
+   top: 12px;
+   width: 1060px;
+   height: 48px;
+   text-align: center;
+   z-index: 19;
+}
+#wb_Editbox10
+{
+   position: absolute;
+   left: 100px;
+   top: 138px;
+   width: 420px;
+   height: 40px;
+   z-index: 15;
+}
+#wb_Editbox7
+{
+   position: absolute;
+   left: 100px;
+   top: 11px;
+   width: 420px;
+   height: 40px;
+   z-index: 12;
+}
+#Editbox3
+{
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 100px;
+   top: 269px;
+   width: 881px;
+   height: 369px;
+   text-align: center;
+   z-index: 2;
+}
+#wb_Editbox8
+{
+   position: absolute;
+   left: 556px;
+   top: 138px;
+   width: 420px;
+   height: 40px;
+   z-index: 18;
+}
+#wb_Editbox11
+{
+   position: absolute;
+   left: 556px;
+   top: 11px;
+   width: 420px;
+   height: 40px;
+   z-index: 16;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 36px;
+   top: 386px;
+   width: 1060px;
+   height: 48px;
+   visibility: hidden;
+   text-align: center;
+   z-index: 21;
+}
+#Editbox4
+{
+}
+#wb_Editbox12
+{
+   position: absolute;
+   left: 556px;
+   top: 74px;
+   width: 420px;
+   height: 40px;
+   z-index: 14;
+}
+#wb_Editbox9
+{
+   position: absolute;
+   left: 100px;
+   top: 74px;
+   width: 420px;
+   height: 40px;
+   z-index: 13;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 100px;
+   top: 269px;
+   width: 881px;
+   height: 369px;
+   visibility: hidden;
+   z-index: 11;
+}
+#Editbox5
+{
+}
+#wb_Text5
+{
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   width: 360px;
+   height: 22px;
+   text-align: center;
+   z-index: 17;
+}
+#Editbox6
+{
+}
+#Editbox7
+{
+}
+#Editbox8
+{
+}
+#Editbox10
+{
+}
+#Editbox11
+{
+}
+#Editbox9
+{
+}
+#Editbox12
+{
+}
+#wb_Form1
+{
+   position: absolute;
+   left: 143px;
+   top: 100px;
+   width: 1080px;
+   height: 702px;
+   z-index: 20;
+}
+#wb_Form2
+{
+   position: absolute;
+   visibility: hidden;
+   left: 41px;
+   top: 474px;
+   width: 1080px;
+   height: 702px;
+   z-index: 22;
+}
+#wb_Editbox1
+{
+   position: absolute;
+   left: 100px;
+   top: 11px;
+   width: 420px;
+   height: 40px;
+   z-index: 3;
+}
+#Button1
+{
+   position: absolute;
+   left: 211px;
+   top: 202px;
+   width: 203px;
+   height: 64px;
+   z-index: 0;
+}
+#wb_Editbox2
+{
+   position: absolute;
+   left: 100px;
+   top: 74px;
+   width: 420px;
+   height: 40px;
+   z-index: 5;
+}
+#Button2
+{
+   position: absolute;
+   left: 667px;
+   top: 202px;
+   width: 203px;
+   height: 64px;
+   z-index: 1;
+}
+#Button3
+{
+   position: absolute;
+   left: 211px;
+   top: 202px;
+   width: 203px;
+   height: 64px;
+   z-index: 9;
+}
+#wb_Editbox3
+{
+   position: absolute;
+   left: 100px;
+   top: 138px;
+   width: 420px;
+   height: 40px;
+   z-index: 6;
+}
+#Button4
+{
+   position: absolute;
+   left: 667px;
+   top: 202px;
+   width: 203px;
+   height: 64px;
+   z-index: 10;
+}
+#wb_Editbox4
+{
+   position: absolute;
+   left: 556px;
+   top: 11px;
+   width: 420px;
+   height: 40px;
+   z-index: 7;
+}
+@media only screen and (max-width: 768px)
+{
+div#container
+{
+   width: 360px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Text1
+{
+   left: 285px;
+   top: 91px;
+   width: 340px;
+   height: 69px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: url(images/index_Text1_bkgrnd768.png);
+   background-repeat: repeat;
+   background-position: left top;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Form1
+{
+   left: 285px;
+   top: 190px;
+   width: 360px;
+   height: 270px;
+   visibility: hidden;
+   display: none;
+   font-weight: normal;
+}
+#Button1
+{
+   left: 102px;
+   top: 190px;
+   width: 156px;
+   height: 34px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-weight: bold;
+   margin: 0;
+}
+#Button2
+{
+   left: 101px;
+   top: 229px;
+   width: 158px;
+   height: 34px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-weight: bold;
+   margin: 0;
+}
+#wb_Text2
+{
+   left: 0px;
+   top: 286px;
+   width: 360px;
+   height: 322px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Editbox1
+{
+   left: 10px;
+   top: 10px;
+   width: 420px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox1
+{
+   line-height: 30px;
+}
+#wb_Editbox2
+{
+   left: -42px;
+   top: -16px;
+   width: 420px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox2
+{
+   line-height: 30px;
+}
+#wb_Editbox3
+{
+   left: -42px;
+   top: 48px;
+   width: 420px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox3
+{
+   line-height: 30px;
+}
+#wb_Editbox4
+{
+   left: 10px;
+   top: 10px;
+   width: 420px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox4
+{
+   line-height: 30px;
+}
+#wb_Editbox5
+{
+   left: 10px;
+   top: 10px;
+   width: 420px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox5
+{
+   line-height: 30px;
+}
+#wb_Editbox6
+{
+   left: 10px;
+   top: 10px;
+   width: 420px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox6
+{
+   line-height: 30px;
+}
+#wb_Text3
+{
+   left: 0px;
+   top: 0px;
+   width: 330px;
+   height: 18px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+}
+#wb_Form2
+{
+   left: 0px;
+   top: 48px;
+   width: 360px;
+   height: 666px;
+   visibility: visible;
+   display: inline;
+   font-weight: normal;
+}
+#Button3
+{
+   left: 0px;
+   top: 256px;
+   width: 175px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-weight: bold;
+   margin: 0;
+}
+#Button4
+{
+   left: 185px;
+   top: 256px;
+   width: 175px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   font-weight: bold;
+   margin: 0;
+}
+#wb_Text4
+{
+   left: 0px;
+   top: 324px;
+   width: 360px;
+   height: 295px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Editbox9
+{
+   left: 0px;
+   top: 112px;
+   width: 175px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox9
+{
+   line-height: 35px;
+}
+#wb_Editbox11
+{
+   left: 185px;
+   top: 45px;
+   width: 175px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox11
+{
+   line-height: 35px;
+}
+#wb_Editbox12
+{
+   left: 185px;
+   top: 112px;
+   width: 175px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox12
+{
+   line-height: 35px;
+}
+#wb_Editbox7
+{
+   left: 0px;
+   top: 45px;
+   width: 175px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox7
+{
+   line-height: 35px;
+}
+#wb_Editbox10
+{
+   left: 0px;
+   top: 180px;
+   width: 175px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox10
+{
+   line-height: 35px;
+}
+#wb_Editbox8
+{
+   left: 185px;
+   top: 180px;
+   width: 175px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   color: #000000;
+   font-weight: bold;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Editbox8
+{
+   line-height: 35px;
+}
+#wb_Text5
+{
+   left: 0px;
+   top: 7px;
+   width: 360px;
+   height: 22px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+}
